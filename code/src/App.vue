@@ -1,6 +1,4 @@
 <template>
-	<h1>Hello world</h1>
-	<ClickCounter />
 	<div>
 		<ul>
 			<li>
@@ -15,6 +13,5 @@
 </template>
 
 <script setup>
-	import ClickCounter from '@/components/ClickCounter.vue'
 	import { RouterView, RouterLink } from 'vue-router';
 </script>
